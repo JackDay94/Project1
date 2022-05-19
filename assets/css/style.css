@@ -11,8 +11,16 @@ body {
     font-weight: 400;
 }
 
-/* Headings and logo */
+/* Top banner */
 
+#bannertop {
+    background-color: #343a40;
+    width: 100%;
+    display: inline-block;
+    line-height: 75px;
+}
+
+/* Headings and logo */
 
 h1, h2, h3 {
     font-family: 'Koulen', cursive;
@@ -21,10 +29,31 @@ h1, h2, h3 {
     font-size: 300%;
 }
 
-
 #logo {
     color: #fff;
     background-color: #343a40;
     letter-spacing: 4px;
     float:left;
+    padding-left: 3rem;
+}
+
+/* Navigation */
+
+#menu {
+    list-style-type: none;
+    font-size: 130%;
+    letter-spacing: 4px;
+    float:right;
+    text-transform:uppercase;
+}
+
+#menu li {
+    display: inline;
+    color:inherit;
+    padding-right: 3rem;
+}
+
+#menu a {
+    text-decoration: none;
+    color:#fff;
 }
