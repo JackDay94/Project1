@@ -18,6 +18,8 @@ body {
     width: 100%;
     display: inline-block;
     line-height: 75px;
+    position:fixed;
+    z-index:5;
 }
 
 /* Headings and logo */
@@ -66,4 +68,21 @@ h1, h2, h3 {
 #menu .active {
     text-decoration: underline;
     color:#adff2f;
+}
+
+/* Hero image */
+
+#hero-container {
+    position:relative;
+    overflow:hidden;
+    width: 100%;
+    height: 975px;
+    top:75px;
+}
+
+#hero-image {
+    width: 100%;
+    height: 975px;
+    background: url('../images/hero-image-treadmill.jpg') no-repeat right top;
+    background-size: cover;
 }
