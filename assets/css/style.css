@@ -57,3 +57,13 @@ h1, h2, h3 {
     text-decoration: none;
     color:#fff;
 }
+
+#menu a:hover {
+    color:#adff2f;
+    text-decoration: underline;
+}
+
+#menu .active {
+    text-decoration: underline;
+    color:#adff2f;
+}
