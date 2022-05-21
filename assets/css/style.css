@@ -36,7 +36,7 @@ h1, h2, h3 {
     background-color: #343a40;
     letter-spacing: 4px;
     float:left;
-    padding-left: 3rem;
+    padding-left: 48px;
 }
 
 /* Navigation */
@@ -52,7 +52,7 @@ h1, h2, h3 {
 #menu li {
     display: inline;
     color:inherit;
-    padding-right: 3rem;
+    padding-right: 48px;
 }
 
 #menu a {
@@ -86,3 +86,5 @@ h1, h2, h3 {
     background: url('../images/hero-image-treadmill.jpg') no-repeat right top;
     background-size: cover;
 }
+
+/* Welcome text box and signup button */
