@@ -39,6 +39,12 @@ h1, h2, h3 {
     padding-left: 48px;
 }
 
+/* Section padding */
+
+.section-padding {
+    padding: 10px 10vw;
+}
+
 /* Navigation */
 
 #menu {
@@ -109,7 +115,7 @@ h1, h2, h3 {
 
 #welcome-text-box p {
     font-size: 150%;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 40px;
 }
 
