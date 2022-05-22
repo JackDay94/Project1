@@ -103,6 +103,8 @@ h1, h2, h3 {
     left: 0;
     right: 0;
     padding: 6px 10px;
+    border-radius: 30px;
+    border: 2px solid #fff;
 }
 
 #welcome-text-box p {
