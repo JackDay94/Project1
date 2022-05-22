@@ -141,7 +141,6 @@ h1, h2, h3 {
 #about-us {
     text-align: center;
     height:900px;
-    padding: 10px 20vw;
 }
 
 #reasons-container {
@@ -151,8 +150,6 @@ h1, h2, h3 {
 #low-cost {
     width:33%;
     float: left;
-    border: 2px solid;
-    border-radius: 10px;
     background-color:red;
 }
 
@@ -169,5 +166,7 @@ h1, h2, h3 {
 }
 
 #about-us p {
-    padding:0 25%
+    padding:0 25% 20px 25%;
+    line-height: 25px;
 }
+
