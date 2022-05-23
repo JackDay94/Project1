@@ -7,8 +7,8 @@
 }
 
 body {
-    font-family: 'Roboto Flex', sans-serif;
-    font-weight: 400;
+    font-family: 'Roboto Flex', sans-serif !important;
+    font-weight: 400 !important;
 }
 
 /* Top banner */
@@ -16,8 +16,7 @@ body {
 #bannertop {
     background-color: #343a40;
     width: 100%;
-    display: inline-block;
-    line-height: 75px;
+    top:0;
     position:fixed;
     z-index:5;
 }
@@ -25,10 +24,10 @@ body {
 /* Headings and logo */
 
 h1, h2, h3 {
-    font-family: 'Koulen', cursive;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 300%;
+    font-family: 'Koulen', cursive !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    font-size: 300% !important;
 }
 
 #logo {
@@ -37,6 +36,7 @@ h1, h2, h3 {
     letter-spacing: 4px;
     float:left;
     padding-left: 48px;
+    padding-top:10px;
 }
 
 /* Section padding */
@@ -53,6 +53,7 @@ h1, h2, h3 {
     letter-spacing: 4px;
     float:right;
     text-transform:uppercase;
+    padding-top: 20px;
 }
 
 #menu li {
@@ -140,11 +141,11 @@ h1, h2, h3 {
 
 #about-us {
     text-align: center;
-    height:900px;
 }
 
 #reasons-container {
     width: 100%;
+    margin-bottom: 75px;
 }
 
 #low-cost {
@@ -170,3 +171,38 @@ h1, h2, h3 {
     line-height: 25px;
 }
 
+/* Carousel gallery */
+
+.carousel-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size:cover ;
+    opacity: 0.7;
+    max-width: 100%;
+    height: 100%;
+}
+
+.carousel-inner {
+    max-width: 100%;
+ }
+    
+.carousel-item {    
+    height:500px;    
+    background: #000;
+    min-width: 100%;
+}
+    
+.carousel-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    height: 100%;
+    opacity: 0.7;
+
+}
+    
