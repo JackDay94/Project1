@@ -45,6 +45,16 @@ h1, h2, h3 {
     padding: 10px 10vw;
 }
 
+/* Heading seperator */
+
+.heading-seperator {
+    width: 50%;
+    margin: 10px auto;
+    height: 2px;
+    color:#000;
+    background-color: #000;
+}
+
 /* Navigation */
 
 #menu {
@@ -143,17 +153,9 @@ h1, h2, h3 {
     text-align: center;
 }
 
-#about-us hr {
-    width: 50%;
-    margin: 10px auto;
-    height: 2px;
-    color:#000;
-    background-color: #000;
-}
-
 #reasons-container {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #low-cost {
@@ -182,7 +184,7 @@ h1, h2, h3 {
 /* Carousel gallery */
 
 #carousel-gallery {
-    width:50vw;
+    max-width: 1000px;
 }
 
 .carousel-image {
@@ -208,5 +210,11 @@ h1, h2, h3 {
     min-width: 100%;
 }
     
+/* Location */
 
+#location {
+    text-align: center;
+    margin-top: 15px;
+    background-color: #6D8EA0;
+}
     
