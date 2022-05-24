@@ -143,9 +143,17 @@ h1, h2, h3 {
     text-align: center;
 }
 
+#about-us hr {
+    width: 50%;
+    margin: 10px auto;
+    height: 2px;
+    color:#000;
+    background-color: #000;
+}
+
 #reasons-container {
     width: 100%;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
 
 #low-cost {
