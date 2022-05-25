@@ -281,6 +281,26 @@ h1, h2, h3, h4, h5 {
     color: #000;
 }
 
+/* Footer */
 
+footer {
+    text-align: center;
+    background-color: #343a40;
+    height: 75px;
+    width: 100%;
+    color: #fff;
+    padding:10px 0;
+    font-size: 50%;
+}
+
+#media-icons ul {
+    list-style-type: none;
+    padding: 0;
+} 
+
+#media-icons li {
+    display: inline;
+    padding: 0 30px;
+}
 
 
