@@ -286,21 +286,30 @@ h1, h2, h3, h4, h5 {
 footer {
     text-align: center;
     background-color: #343a40;
-    height: 75px;
     width: 100%;
+    height: 100px;
     color: #fff;
     padding:10px 0;
-    font-size: 50%;
 }
+
+footer h4 {
+    font-size: 140% !important;
+}
+
 
 #media-icons ul {
     list-style-type: none;
     padding: 0;
+    font-size: 150%;
+    margin: 0;
 } 
 
 #media-icons li {
     display: inline;
-    padding: 0 30px;
+    padding: 0 5%;
 }
 
+#media-icons a:hover {
+    color: #fff;
+}
 
