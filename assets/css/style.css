@@ -50,7 +50,6 @@ h1, h2, h3, h4, h5 {
 .heading-seperator {
     width: 50%;
     margin: 10px auto;
-    height: 2px;
     color:#000;
     background-color: #000;
 }
@@ -123,6 +122,10 @@ h1, h2, h3, h4, h5 {
     padding: 6px 10px;
     border-radius: 30px;
     border: 2px solid #fff;
+}
+
+#welcome-text-box h2 {
+    padding-top:20px;
 }
 
 #welcome-text-box p {
@@ -268,6 +271,7 @@ h1, h2, h3, h4, h5 {
     height: 20%;
     font-weight: bold;
     line-height: 30px;
+    padding: 10px;
 }
 
 /* Personal trainers Section */
@@ -320,5 +324,40 @@ footer h4 {
 
 #media-icons a:hover {
     color: #fff;
+}
+
+/* Media queries */ 
+
+/* Screen size 800px and less */
+@media screen and (max-width:800px) {
+    #equipment, #open-time, #low-cost {
+        width: 100%;
+    }
+
+    #map-container {
+        width:100% !important;
+        height: 500px;
+    }
+
+    #location-info {
+        width: 100%;
+    }
+    
+    #location-info img {
+        display: none
+    }
+}
+
+/* Screen size 600px and less */
+@media screen and (max-width:600px) {
+    h3, h4, h5 {
+        font-size: 32px !important;
+    }
+    
+    h2  {
+        font-size: 38px !important;
+    }
+    
+    
 }
 
