@@ -375,6 +375,11 @@ footer h4 {
     #welcome-text-box h2 {
         padding-bottom: 30px;
     }
+
+    #hero-image {
+        background: url('../images/hero-image-alt.jpg') no-repeat center center;
+        background-size: cover;
+    }
 }
 
 @media  screen and (max-height:450px) {
