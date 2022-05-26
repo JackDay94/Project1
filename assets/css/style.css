@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5 {
 #welcome-text-box p {
     font-size: 150%;
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     margin-bottom: 0;
 }
 
@@ -329,6 +329,7 @@ footer h4 {
 /* Media queries */ 
 
 /* Screen size 800px and less */
+
 @media screen and (max-width:800px) {
     #equipment, #open-time, #low-cost {
         width: 100%;
@@ -349,6 +350,7 @@ footer h4 {
 }
 
 /* Screen size 600px and less */
+
 @media screen and (max-width:600px) {
     h3, h4, h5 {
         font-size: 32px !important;
@@ -361,3 +363,18 @@ footer h4 {
     
 }
 
+/* Screen size 400px and less */
+
+@media screen and (max-width:400px) {
+    #welcome-text-box {
+        max-width: 250px;
+    }
+
+    #welcome-text-box p {
+        display: none;
+    }
+
+    #welcome-text-box h2 {
+        padding-bottom: 30px;
+    }
+}
