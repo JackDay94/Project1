@@ -164,21 +164,18 @@ h1, h2, h3, h4, h5 {
 }
 
 #low-cost {
-    width:33%;
+    width:33.3333%;
     float: left;
-    
 }
 
 #open-time {
-    width: 33%;
+    width: 33.3333%;
     margin: auto;
-    
 }
 
 #equipment {
-    width: 33%;
+    width: 33.3333%;
     float:right;
-    
 }
 
 #about-us p {
@@ -328,7 +325,7 @@ footer h4 {
 
 /* Media queries */ 
 
-/* Screen size 800px and less */
+/* Screen size 800px wide and less */
 
 @media screen and (max-width:800px) {
     #equipment, #open-time, #low-cost {
@@ -349,7 +346,7 @@ footer h4 {
     }
 }
 
-/* Screen size 600px and less */
+/* Screen size 600px wide and less */
 
 @media screen and (max-width:600px) {
     h3, h4, h5 {
@@ -361,7 +358,7 @@ footer h4 {
     }
 }
 
-/* Screen size 400px and less */
+/* Screen size 400px wide and less */
 
 @media screen and (max-width:400px) {
     #welcome-text-box {
@@ -382,6 +379,8 @@ footer h4 {
     }
 }
 
+/* Screen size 450px high and less */
+
 @media  screen and (max-height:450px) {
     #welcome-text-box p {
         display: none;
@@ -393,5 +392,28 @@ footer h4 {
 
     #welcome-text-box h2 {
         padding-bottom: 3%;
+    }
+}
+
+@media  screen and (max-width:730px) {
+    #logo {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    #menu {
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+
+    #menu li {
+        padding-right: 0;
+        display: block;
+        width: 100%;
     }
 }
