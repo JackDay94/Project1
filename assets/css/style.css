@@ -88,50 +88,36 @@ h1, h2, h3, h4, h5 {
 
 /* Hero image */
 
-#hero-container {
-    position:relative;
-    overflow:hidden;
-    width: 100%;
-    height: 80vh;
-}
-
 #hero-image {
     width: 100%;
-    height: 100%;
-    background: url('../images/hero-image-treadmill.jpg') no-repeat right top;
+    height: 60vh;
+    background: no-repeat linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(../images/hero-image-treadmill.jpg) right top;
     background-size: cover;
-    background-color: #343a40;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Welcome text box and signup button */
 
 #welcome-text-box {
-    font-size: 80%;
+    font-size: 100%;
     text-transform: uppercase;
     letter-spacing: 2px;
-    width: 400px;
-    height: 250px;
-    background-color: rgba(22, 25, 27, .7);
-    bottom: 30px;
+    width: 100%;
     color:#fff;
     text-align: center;
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    padding: 6px 10px;
-    border-radius: 30px;
-    border: 2px solid #fff;
+    padding: 0 10px;
 }
 
 #welcome-text-box h2 {
-    padding-top:20px;
+    padding-bottom:10px;
 }
 
 #welcome-text-box p {
-    font-size: 150%;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    font-size: 130%;
+    padding-bottom: 24px;
     margin-bottom: 0;
 }
 
@@ -139,17 +125,15 @@ h1, h2, h3, h4, h5 {
     color:#fff;
     font-size: 150%;
     background-color: #DD614A;
-    border: 2px solid #fff;
     text-decoration: none;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 5px 20px;
     border-radius: 10px;
+    display: inline-block;
 }
 
 .register-button:hover {
     color:#DD614A;
     background-color:#fff;
-    border-color: #DD614A;
 }
 
 /* About us */
@@ -202,11 +186,8 @@ h1, h2, h3, h4, h5 {
     height: 100%;
 }
 
-.carousel-inner {
-    max-width: 100%;
- }
     
-.carousel-item {    
+.carousel-image-container {    
     height:500px;    
     background: #000;
     min-width: 100%;
@@ -227,7 +208,6 @@ h1, h2, h3, h4, h5 {
 
 #map-container {
     overflow: hidden;
-    position: relative;
     height: 80%;
     width:60%;
     float: left;
@@ -235,9 +215,6 @@ h1, h2, h3, h4, h5 {
 }
 
 #map-container iframe {
-    left: 0;
-    top: 0;
-    position: relative;
     height: 100%;
     width: 100%;
 }
@@ -248,12 +225,10 @@ h1, h2, h3, h4, h5 {
     float: right;
     width: 40%;
     height: 80%;
-    position: relative;
     overflow: hidden;
 }
 
 #location-info img {
-    position: relative;
     width: 100%;
     height: 80%;
     border: 2px solid #000;
