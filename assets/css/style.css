@@ -147,21 +147,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 20px;
 }
 
-#low-cost {
-    width:33.3333%;
-    float: left;
-}
-
-#open-time {
-    width: 33.3333%;
-    margin: auto;
-}
-
-#equipment {
-    width: 33.3333%;
-    float:right;
-}
-
 #about-us p {
     padding:0 25% 20px 25%;
     line-height: 25px;
@@ -303,10 +288,6 @@ footer h4 {
 /* Screen size 800px wide and less */
 
 @media screen and (max-width:800px) {
-    #equipment, #open-time, #low-cost {
-        width: 100%;
-    }
-
     #map-container {
         width:100% !important;
         height: 500px;
