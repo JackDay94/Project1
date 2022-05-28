@@ -272,6 +272,15 @@ footer h4 {
     color: #fff;
 }
 
+/* Registration form */
+
+#register-form {
+    height: 100vh;
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('../images/register-background.webp') center no-repeat;
+    background-size: cover;
+    margin-top: 75px;
+}
+
 /* Media queries */ 
 
 /* Screen size 992px wide and less */
