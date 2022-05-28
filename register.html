@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +6,53 @@
     <meta name="keywords" content="Gym, Fitness, Gym Day, Exercise, London, England">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Gym Day</title>
-</head>
+    <!--Bootstrap styles-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <title>Gym Day - Regsiter Here!</title>
 
 <body>
-    <header>
-        <a href="index.html">
-            <h1>Gym Day</h1>
+    <header id="bannertop">
+        <!-- Main heading -->
+        <a href="index.html" aria-label="Go to the Home page">
+            <h1 id="logo">Gym Day</h1>
         </a>
         <!-- Navigation -->
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
+            <ul id="menu">
+                <li class="home-link">
+                    <a href="index.html" aria-label="Go to the Home page">Home</a>
                 </li>
-                <li>
-                    <a href="register.html">Register</a>
+                <li class="register-link">
+                    <a class="active" href="register.html" aria-label="Go to the Registration page">Register</a>
                 </li>
-                <li>
-                    <a href="contact.html">Contact us</a>
+                <li class="contact-link">
+                    <a href="contact.html" aria-label="Go to the Contact us page">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section>Main image and Register button</section>
-    <section>About us</section>
-    <section>Where to find us</section>
-    <section>Meet our personal trainers</section>
-    <footer>Social media links</footer>
+    <!-- Registration form -->
+    <section id="register-form" class="section-padding">
+
+    </section>
+    <!-- Social media icons -->
+    <footer>
+        <h4>Follow us on:</h4>
+        <div id="media-icons">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank" aria-label="Open Facebook in a new tab" rel="noopener"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank" aria-label="Open Twitter in a new tab" rel="noopener"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank" aria-label="Open Youtube in a new tab" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank" aria-label="Open Instagram in a new tab" rel="noopener"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+     <!-- Font Awesome script -->
+     <script src="https://kit.fontawesome.com/9918a76ce2.js" crossorigin="anonymous"></script>
 </body>
 </html>
