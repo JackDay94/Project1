@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Koulen&family=Roboto+Flex:opsz@8..144&display=swap');
 
+/* --------- General styles --------- */
 * {
     margin: 0;
     padding: 0;
@@ -11,17 +12,7 @@ body {
     font-weight: 400 !important;
 }
 
-/* Top banner */
-
-#bannertop {
-    background-color: #343a40;
-    width: 100%;
-    top:0;
-    position:fixed;
-    z-index:5;
-}
-
-/* Headings and logo */
+/* Headings */
 
 h1, h2, h3, h4, h5 {
     font-family: 'Koulen', cursive !important;
@@ -29,15 +20,6 @@ h1, h2, h3, h4, h5 {
     text-transform: uppercase !important;
     font-size: 300% !important;
     letter-spacing: 2px;
-}
-
-#logo {
-    color: #fff;
-    background-color: #343a40;
-    letter-spacing: 4px;
-    float:left;
-    padding-left: 48px;
-    padding-top:10px;
 }
 
 /* Section padding */
@@ -53,6 +35,43 @@ h1, h2, h3, h4, h5 {
     margin: 10px auto;
     color:#000;
     background-color: #000;
+}
+
+/* Custom button */
+
+.custom-button {
+    color:#fff;
+    font-size: 150%;
+    background-color: #DD614A;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.custom-button:hover {
+    color:#DD614A;
+    background-color:#fff;
+}
+
+/* --------- Styles for sections --------- */
+/* Top banner */
+
+#bannertop {
+    background-color: #343a40;
+    width: 100%;
+    top:0;
+    position:fixed;
+    z-index:5;
+}
+
+#logo {
+    color: #fff;
+    background-color: #343a40;
+    letter-spacing: 4px;
+    float:left;
+    padding-left: 48px;
+    padding-top:10px;
 }
 
 /* Navigation */
@@ -100,7 +119,7 @@ h1, h2, h3, h4, h5 {
     justify-content: center;
 }
 
-/* Welcome text box and signup button */
+/* Welcome text box */
 
 #welcome-text-box {
     font-size: 100%;
@@ -120,21 +139,6 @@ h1, h2, h3, h4, h5 {
     font-size: 130%;
     padding-bottom: 24px;
     margin-bottom: 0;
-}
-
-.custom-button {
-    color:#fff;
-    font-size: 150%;
-    background-color: #DD614A;
-    text-decoration: none;
-    padding: 5px 20px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-.custom-button:hover {
-    color:#DD614A;
-    background-color:#fff;
 }
 
 /* About us */
@@ -273,7 +277,7 @@ footer h4 {
     color: #fff;
 }
 
-/* General form styles */
+/* Shared Form styles */
 
 .full-background {
     height: 100vh;
@@ -331,18 +335,6 @@ input:focus {
     margin-bottom: 10px;
 }
 
-/* Message displayed after submitting form */
-
-#thank-you-message {
-    text-align: center;
-    color: #fff;
-    background-color:rgb(52, 58, 64, 0.5);
-    margin: auto;
-    border-radius: 20px;
-    padding: 30px;
-    margin: 0 10px;
-}
-
 /* Contact form */
 
 #contact-us {
@@ -373,8 +365,19 @@ input:focus {
     margin: auto;
 }
 
+/* Message displayed after submitting form */
 
-/* Media queries */ 
+#thank-you-message {
+    text-align: center;
+    color: #fff;
+    background-color:rgb(52, 58, 64, 0.5);
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 10px;
+}
+
+/* --------- Media queries --------- */ 
 
 /* Screen size 992px wide and less */
 /* Makes map take full width and removes gym image to reduce clutter */
@@ -397,42 +400,6 @@ input:focus {
         display: none
     }
 }  
-
-/* Screen size 600px wide and less */
-/* Changes heading font-sizes for small screens */
-
-@media screen and (max-width:600px) {
-    h3, h4, h5 {
-        font-size: 32px !important;
-    }
-    
-    h2  {
-        font-size: 38px !important;
-    }
-
-    #welcome-text-box p {
-        font-size: 100%;
-    }
-
-/* Reduces height of carousel image to prevent stretching */    
-    .carousel-image-container {
-        max-height: 300px;
-    }
-}
-
-/* Screen size 400px wide and less */
-/* Removes paragraph in welcome text box and changes hero image */
-
-@media screen and (max-width:400px) {
-    #welcome-text-box p {
-        display: none;
-    }
-
-    #hero-image {
-        background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url('../images/hero-image-alt.jpg') no-repeat center center;
-        background-size: cover;
-    }
-}
 
 /* Screen size 767px wide and less */
 /* Adjusts nav bar size to work with smaller screens */
@@ -463,6 +430,42 @@ input:focus {
     #hero-image, #registration, #contact-us {
         margin-top: 144px;
     }   
+}
+
+/* Screen size 600px wide and less */
+/* Changes font-sizes for small screens */
+
+@media screen and (max-width:600px) {
+    h3, h4, h5 {
+        font-size: 32px !important;
+    }
+    
+    h2  {
+        font-size: 38px !important;
+    }
+
+    #welcome-text-box p {
+        font-size: 100%;
+    }
+
+/* Reduces height of carousel image to prevent stretching */    
+    .carousel-image-container {
+        max-height: 300px;
+    }
+}
+
+/* Screen size 400px wide and less */
+/* Removes paragraph in welcome text box and changes hero image to better suit smaller screens */
+
+@media screen and (max-width:400px) {
+    #welcome-text-box p {
+        display: none;
+    }
+
+    #hero-image {
+        background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url('../images/hero-image-alt.jpg') no-repeat center center;
+        background-size: cover;
+    }
 }
 
 /* Screen size 620px high and lower */
