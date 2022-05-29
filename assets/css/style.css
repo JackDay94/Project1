@@ -322,6 +322,10 @@ input:focus {
     margin: auto;
 }
 
+.radio-group {
+    margin-bottom: 10px;
+}
+
 /* Media queries */ 
 
 /* Screen size 992px wide and less */
@@ -423,7 +427,7 @@ input:focus {
         padding: 5px;
     }
 
-    #register-form .input-field {
+    #register-form .form-field {
         width: 50%;
     }
 }
