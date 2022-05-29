@@ -1,11 +1,24 @@
 <h1 align="center"> Gym Day</h1>
 
 ## Introduction
+
 Gym Day is a site that is designed to allow people to apply for a gym membership at a gym of the same name based in London, England. The target audience of this site is people who want to get fit at a gym and potentially wish to use a personal trainer. Gym Day aims to provide users with a quick, no hassle way to register for a membership and provides information about the gym itself - mainly through images and small amounts of text.
 
-![Responsive Mockup](assets/images/gym-day-mockup.PNG)
+[The live view can be accessed Here.](https://jackday94.github.io/Project1_Gym_Day/)
 
-## Features 
+![Responsive Mockup](assets/images/gym-day-mockup.webp)
+
+## Contents
+
+## Design 
+
+### Colours
+
+When considering the colour scheme for the site, I wanted something that represented colours you may find within a gym such as weights, treadmills, gym attire etc. I therefore opted for a rather dark colour scheme for my hero image and header and footer, but also tried to use some colours with a brighter contrast to make things more welcoming to visitors.
+
+![Colour pallete](assets/images/colour-pallete.webp)
+
+## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
