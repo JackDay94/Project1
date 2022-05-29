@@ -273,28 +273,18 @@ footer h4 {
     color: #fff;
 }
 
-/* Registration form */
+/* General form styles */
 
-#registration {
+.full-background {
     height: 100vh;
-    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('../images/register-background.webp') center no-repeat;
-    background-size: cover;
     margin-top: 75px;
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
-#registration h2 {
-    text-align: center;
-}
-
-#register-container {
-    color: #fff;
-}
-
-#register-form {
+.row > .form-layout {
     width: 60%;
     background-color:rgb(52, 58, 64, 0.5);
     margin: auto;
@@ -317,6 +307,21 @@ input:focus {
     color:#fff;
 }
 
+/* Registration form */
+
+#registration {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('../images/register-background.webp') center no-repeat;
+    background-size: cover;
+}
+
+#registration h2 {
+    text-align: center;
+}
+
+#register-container {
+    color: #fff;
+}
+
 #register-form input[type=submit] {
     max-width: 150px;
     margin: auto;
@@ -337,6 +342,14 @@ input:focus {
     padding: 30px;
     margin: 0 10px;
 }
+
+/* Contact form */
+
+#contact-us {
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('../images/contact-background.webp') center no-repeat;
+    background-size: cover;
+}
+
 
 /* Media queries */ 
 
@@ -372,6 +385,10 @@ input:focus {
     
     h2  {
         font-size: 38px !important;
+    }
+
+    #welcome-text-box p {
+        font-size: 100%;
     }
 
 /* Reduces height of carousel image to prevent stretching */    
