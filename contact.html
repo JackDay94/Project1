@@ -47,18 +47,36 @@
     <section id="contact-us" class="section-padding full-background">
         <div id="contact-container" class="container">
             <div class="row">
-                <form id="contact-form" action="message-received.html" method="get" class="col-sm-12 row">
+                <form id="contact-form" action="message-received.html" method="get" class="form-layout col-sm-12 row">
                     <h2>Contact us</h2>
                     <div class="form-field col-md-6 col-12">
-                        <label for="fullname">First name</label>
+                        <label for="fullname">Full name</label>
                         <input id="fullname" type="text" class="input-field" placeholder="Full name" required>
                     </div>
                     <div class="form-field col-md-6 col-12">
                         <label for="email">Email</label>
                         <input id="email" type="email" class="input-field" placeholder="Email" required>
                     </div>
-
+                    <div class="form-field col-12">
+                        <label for="topic">Select a topic:</label>
+                        <select name="topic" id="topic" required>
+                            <option value="" selected disabled>Select a topic</option>
+                            <option value="registering">Registering</option>
+                            <option value="existing-membership">Existing membership</option>
+                            <option value="pricing">Pricing</option>
+                            <option value="facilities">Facilities</option>
+                            <option value="trainers">Personal trainers</option>
+                            <option value="other">Other</option>
+                        </select>
                     </div>
+                    <div class="form-field">
+                        <textarea name="contact-message" id="contact-message" placeholder="Please enter your message..."
+                            required></textarea>
+                    </div>
+                    <input type="submit" value="Send" class="custom-button">
+                </form>
+            </div>
+        </div>
     </section>
     <!-- Social media icons -->
     <footer>
