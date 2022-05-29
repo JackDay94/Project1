@@ -1,9 +1,9 @@
-# Gym Day
+<h1 align="center"> Gym Day</h1>
 
 ## Introduction
-Gym Day is a site that is designed to allow people to apply for a gym membership at a gym of the same name based in London, England. The target audience of this site is people who want to get fit at a gym and potentially wish to use a personal trainer. Gym Day aims to provide users with a quick, no hassle way to register for a membership and provide information about the gym itself - mainly through images and small amounts of text.
+Gym Day is a site that is designed to allow people to apply for a gym membership at a gym of the same name based in London, England. The target audience of this site is people who want to get fit at a gym and potentially wish to use a personal trainer. Gym Day aims to provide users with a quick, no hassle way to register for a membership and provides information about the gym itself - mainly through images and small amounts of text.
 
-![Responsive Mockup](https://github.com/JackDay94/)
+![Responsive Mockup](assets/images/gym-day-mockup.PNG)
 
 ## Features 
 

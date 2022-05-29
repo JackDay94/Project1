@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5 {
 #hero-image {
     width: 100%;
     height: 60vh;
-    background: no-repeat linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(../images/hero-image-treadmill.jpg) right top;
+    background: no-repeat linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(../images/hero-image-treadmill.webp) right top;
     background-size: cover;
     margin-top: 75px;
     display: flex;
@@ -463,7 +463,7 @@ input:focus {
     }
 
     #hero-image {
-        background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url('../images/hero-image-alt.jpg') no-repeat center center;
+        background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url('../images/hero-image-alt.webp') no-repeat center center;
         background-size: cover;
     }
 }
