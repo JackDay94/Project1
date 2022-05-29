@@ -18,6 +18,26 @@ When considering the colour scheme for the site, I wanted something that represe
 
 ![Colour pallete](assets/images/colour-pallete.webp)
 
+### Font styles
+
+For the font styles, I wanted something that was modern and would give strong headings that could be complemented by a lighter font for the main body. For this I used Google Fonts to choose the 'Koulen' style for headings and the logo and 'Roboto Flex' for the main body.
+
+### Images
+
+I chose to incorporate many images depicting people working out within a gym and some images of rooms full of gym equipment in order to showcase what the gym is like. I chose images that would work with the sections and pages that they were for. For example; the personal trainer section depicts focused shots of individuals within a gym. All of my images for this project are royalty free from Pexels or istock.
+
+### Wireframes
+
+I used Balsamiq Wireframes to create the basic structure of what I wanted my site to look like. This made it easier for me to focus on the styling of my site, as I already had a good idea of the layout.
+
+- Desktop
+
+![Desktop wireframe](assets/images/wireframe-desktop.webp)
+
+- Mobile
+
+![Mobile wireframe](assets/images/wireframe-mobile.webp)
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
