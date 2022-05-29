@@ -326,6 +326,8 @@ input:focus {
     margin-bottom: 10px;
 }
 
+/* Message displayed after submitting form */
+
 #thank-you-message {
     text-align: center;
     color: #fff;
@@ -370,6 +372,11 @@ input:focus {
     
     h2  {
         font-size: 38px !important;
+    }
+
+/* Reduces height of carousel image to prevent stretching */    
+    .carousel-image-container {
+        max-height: 300px;
     }
 }
 
