@@ -84,11 +84,11 @@ I used Balsamiq Wireframes to create the basic structure of what I wanted my sit
   - The personal trainer section shows profiles of personal trainers who work at the gym, encouraging users to register to get the benefit of using one of these trainers. 
   - This section also helps to highlight the friendlieness of the gym and aims to make users more comfortable in their registration.
 
-![Personal trainers](assets/images/personal-trainer-section.webp))
+![Personal trainers](assets/images/personal-trainer-section.webp)
 
 - __Footer__
 
-  - The footer section lists the social media pages of the gym using recognised icons for easy identification. Each link opens in a new tab so it doesn't disturb the users browsing on the gym day page.
+  - The footer section lists the social media pages of the gym using recognised icons for easy identification. Each link opens in a new tab so it doesn't disturb the users browsing on the Gym Day page.
   - This encourages users to follow and stay connected with any updates the gym may post on social media. 
 
 ![Footer](assets/images/footer.webp)
@@ -119,23 +119,41 @@ I used Balsamiq Wireframes to create the basic structure of what I wanted my sit
 
 - Payment page - I feel that a payment page would be good to implement to allow users to pay for their membership at the time of registering. This would benefit users by removing the need to pay for their membership in the gym itself, and potentially allow them to renew their membership online.
 
+## Technologies
+
+- HTML5 - Used for the structure and content of my web pages.
+- CSS3 - Used for the styling of pages.
+- [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) - Used for its mobile-first approach, giving me more time to focus on styling rather than positioning. Also used for the image [carousel](https://getbootstrap.com/docs/5.1/components/carousel/#with-indicators) and personal trainer [cards.](https://getbootstrap.com/docs/4.3/components/card/#card-decks)
+- [Font Awesome](https://fontawesome.com/) - For the social media icons used in the footer and the icons in the about us section.
+- [Google fonts](https://fonts.google.com/) - Used to choose the fonts for my site.
+- [Gitpod](https://www.gitpod.io/) - Used as my code editor.
+- [GitHub](https://github.com/) - Used for deploying and hosting my site.
+
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+This section details the testing I undertook to ensure that my site functioned as it was required.
 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjackday94.github.io%2FProject1_Gym_Day%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjackday94.github.io%2FProject1_Gym_Day%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) (The warnings produced are due to the imported bootstrap styles).
+- Accessability via Lighthouse
+  - No accessability issues found for the [home page.](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjackday94.github.io%2FProject1_Gym_Day%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+  - No accessability issues found for the [register page.](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjackday94.github.io%2FProject1_Gym_Day%2Fregister.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)
+  - No accessability issues found for the [contact page.](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fjackday94.github.io%2FProject1_Gym_Day%2Fcontact.html&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext)  
+
+### Form Testing
+
+I tested all my forms on the site to ensure they didn't allow the user to submit without entering the required information.
+
+![Register Test](assets/images/register-form-test.webp)![Contact Test](assets/images/contact-form-test.webp)
+
+I also tested my forms to see if they would ask for confirmation before submitting.
+
+![Confirmation check](assets/images/confirmation-check.webp)
+
 
 ### Unfixed Bugs
 
