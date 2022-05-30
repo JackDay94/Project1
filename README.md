@@ -8,7 +8,14 @@ Gym Day is a site that is designed to allow people to apply for a gym membership
 
 ![Responsive Mockup](assets/images/gym-day-mockup.webp)
 
-## Contents
+## Table of Contents
+
+1. [Design](#design)
+2. [Features](#features)
+3. [Technologies](#technologies)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
 
 ## Design 
 
@@ -148,7 +155,8 @@ This section details the testing I undertook to ensure that my site functioned a
 
 - I tested all my forms on the site to ensure they didn't allow the user to submit without entering the required information.
 
-![Register Test](assets/images/register-form-test.webp)![Contact Test](assets/images/contact-form-test.webp)
+![Register Test](assets/images/register-form-test.webp)
+![Contact Test](assets/images/contact-form-test.webp)
 
 - I also tested my forms to see if they would ask for confirmation before submitting.
 
@@ -166,7 +174,7 @@ This section details the testing I undertook to ensure that my site functioned a
 
 ### Bugs
 
-- As of the time of deployment there are no current bugs that I have experienced with the site. However, when testing different viewports for responsiveness earlier in development, I noticed that sometimes my top navigation would disappear and then reappear after dragging viewport. This only occured twice and I have not been able to effectively replicate it.
+- As of the time of deployment there are no current bugs that I have experienced with the site. However, when testing different viewports for responsiveness earlier in development, I noticed that sometimes my top navigation would disappear and then reappear after dragging the viewport. This only occured twice and I have not been able to effectively replicate it.
 
 ## Deployment
 
@@ -175,19 +183,28 @@ I deployed my site to GitHub pages using the following steps:
   2. From the 'Code and automation' left menu, select pages
   3. From the source section select the main branch in the drop down menu, select save
   4. Once the main branch has been saved, the GitHub pages section will display a message saying that the site is ready to be published at https://jackday94.github.io/Project1_Gym_Day/
-  5. After waiting for a few minutes and refreshing the page, GitHub pages will now display a messaging saying 'Your site is published at https://jackday94.github.io/Project1_Gym_Day/' 
+  5. After waiting for a few minutes and refreshing the page, GitHub pages will now display a messaging saying 'Your site is published at https://jackday94.github.io/Project1_Gym_Day/'
+  6. The site is now deployed and can be viewed using the provided link 
 
 ## Credits 
 
 ### Content 
 
-- Instructions on how to implement 
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Instructions on how to implement the header, footer and hero image were taken from the [Code Institute Love Running course material](https://codeinstitute.net/)
+- Templates for the image carousel and card-deck trainer profiles were taken from the following Bootstrap pages: 
+  - [Carousel](https://getbootstrap.com/docs/5.1/components/carousel/#with-indicators)  
+  - [Card-deck](https://getbootstrap.com/docs/4.3/components/card/#card-decks)
+- The icons in the footer and about us section were taken from [Font Awesome](https://fontawesome.com/)
+- Instructions on how to implement flexbox, which I used to central align my forms and welcome text, were provided by [this article on css-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background)
+- Information on various HTML and CSS atrributes and tags was taken from [W3Schools](https://www.w3schools.com/)
+- Instructions on how to implement a confirmation box before form submission was taken from [stackoverflow](https://stackoverflow.com/questions/27921283/add-a-confirmation-alert-before-submitting-a-form)
+- My mentor, Reuben Ferrante, for providing valuable feedback and showing me how to modernise my site by removing borders and applying a dark opacity to my background images.
 
 ### Media
 
-- All images on my site were taken from
-- The images used for the gallery page were taken from this other open source site
+- All images on my site (except the outside gym image) were taken from the free stock photo library [Pexels](https://www.pexels.com/)
+- The image of the outside of the gym was taken from the stock photo site [iStock](https://www.istockphoto.com/)
+- To look for colours for my website that would contrast well with each other, I used the website [Coolors](https://coolors.co/)
+- I used the website [PureGym](https://www.puregym.com/) and [this bootstrap theme](https://startbootstrap.com/previews/agency) for some inspiration to the layout of my site.
 
 
