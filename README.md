@@ -36,69 +36,88 @@ I used Balsamiq Wireframes to create the basic structure of what I wanted my sit
 
 - Mobile
 
-![Mobile wireframe](assets/images/wireframe-mobile.webp)
+  ![Mobile wireframe](assets/images/wireframe-mobile.webp)
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The navigation bar is displayed on all pages of the site and features links to each page, for easy navigation and the logo of the site, which also acts as a link back to the home page.
+  - The navigation bar is fixed and follows the user as they scroll the page, allowing them to click any of the navigation links wherever they are on the page.
+  - When used on mobile devices, the navigation bar will act responsively by displaying vertically rather than horizontally.
+  - The navigation links will change colour and underline when hovered and active, letting the user know what page they are currently on.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](assets/images/navigation.webp)
 
-- __The landing page image__
+- __The landing page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing page features a large background image overlayed with text welcoming people to the site and a register button to entice users to register to the Gym.
+  - The background image changes on smaller devices so that the user can still determine that they are looking at a website for a gym.
+    - Desktop
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+    ![Home image desktop](assets/images/hero-photo-desktop.webp)
 
-- __Club Ethos Section__
+    - Mobile
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+    ![Home image mobile](assets/images/hero-photo-mobile.webp)
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+- __Why Should you join (About us) section__
 
-- __Meetup Times section__
+  - The about us section highlights the benefits of registering for a membership at Gym Day and shows the user why it stands apart from other gyms, encouraging them to register. 
+  - A carousel of images from the gym show users what they will gain access to with their membership and highlights the fun of being part of the gym.
+  - Users can interact with the carousel with the forwards and backwards arrows. This allows them to look at specific images showing different parts of the gym. 
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+![About us](assets/images/about-us.webp)
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+- __Location section__
 
-- __The Footer__ 
+  - This section displays an embedded Google map showing the location of the gym to users, allowing them to easily find the gym. 
+  - An image of the outside of the gym is displayed next to the map. This shows users what the entrance to the gym looks like so they know they have arrived at the right place.
+  - The gym address is also displayed in plain text, making it easier for users to enter the address into sat navs to travel to. 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+![Location](assets/images/location-section.webp)
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+- __Peronsal trainer section__ 
 
-- __Gallery__
+  - The personal trainer section shows profiles of personal trainers who work at the gym, encouraging users to register to get the benefit of using one of these trainers. 
+  - This section also helps to highlight the friendlieness of the gym and aims to make users more comfortable in their registration.
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+![Personal trainers](assets/images/personal-trainer-section.webp))
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+- __Footer__
 
-- __The Sign Up Page__
+  - The footer section lists the social media pages of the gym using recognised icons for easy identification. Each link opens in a new tab so it doesn't disturb the users browsing on the gym day page.
+  - This encourages users to follow and stay connected with any updates the gym may post on social media. 
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+![Footer](assets/images/footer.webp)
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+- __The Registration page__
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+  - The registration page allows users to register to the gym by filling out the form displayed on the page. The user is asked to provide their name, email, phone number and gender before they can submit their registration. 
+  - When the user clicks submit, they are asked to confirm they wish to submit. This was done to prevent accidental submissions before the user was ready.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Register page](assets/images/register-page.webp)
+
+- __The Contact page__
+
+  - The contact page is used to allow users to easily contact the gym about a query that they may have. On this page the user must enter their name, email, a topic and a message before they can send their message.
+  - A dropdown list is provided for users to select a topic, allowing them to categorise their query more easily.
+  - A confirmation box is also used when users submit, to prevent accidental submission.
+
+![Contact page](assets/images/contact-page.webp)
+
+- __Thank you pages__
+
+  - When the user submits a form they are brought to either the register-complete page for the registration form, or the message-received page for the contact form. This provides feedback to the user that their submission has been completed successfully and lets them know that they will be contacted by the gym shortly after.
+
+![Registration complete](assets/images/register-complete.webp)
+![Message sent](assets/images/message-sent.webp)
 
 ### Features Left to Implement
 
-- Another feature idea
+- Payment page - I feel that a payment page would be good to implement to allow users to pay for their membership at the time of registering. This would benefit users by removing the need to pay for their membership in the gym itself, and potentially allow them to renew their membership online.
 
 ## Testing 
 
