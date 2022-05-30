@@ -146,64 +146,48 @@ This section details the testing I undertook to ensure that my site functioned a
 
 ### Form Testing
 
-I tested all my forms on the site to ensure they didn't allow the user to submit without entering the required information.
+- I tested all my forms on the site to ensure they didn't allow the user to submit without entering the required information.
 
 ![Register Test](assets/images/register-form-test.webp)![Contact Test](assets/images/contact-form-test.webp)
 
-I also tested my forms to see if they would ask for confirmation before submitting.
+- I also tested my forms to see if they would ask for confirmation before submitting.
 
 ![Confirmation check](assets/images/confirmation-check.webp)
 
+### Link Testing
 
-### Unfixed Bugs
+- I made sure that all my links were working and links to external sites, such as those used in the footer, opened sites in a new tab when clicked.
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+### Mobile Testing
+
+- To test my site for responsiveness on mobile devices I used Mozilla Firefox and Google Chrome developer tools to resize my viewport to suit various mobile devices. 
+- I checked responsiveness both in portrait and landscape views to ensure all site features functioned and that a user could use the site for its intended purpose. The smallest viewport size that I tested was 320x480.
+- I also used my mobile device (Samsung Galaxy S20 Ultra 5G) and my brother's devices (iPhone 11/ iPad Pro 12.9) to test on physical devices using different operating systems. This allowed me to simulate real world scenarios where the site will be viewed on different devices.
+
+### Bugs
+
+- As of the time of deployment there are no current bugs that I have experienced with the site. However, when testing different viewports for responsiveness earlier in development, I noticed that sometimes my top navigation would disappear and then reappear after dragging viewport. This only occured twice and I have not been able to effectively replicate it.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
+I deployed my site to GitHub pages using the following steps:
+  1. Select Project1_Gym_Day from my GitHub dashboard, navigate to the Settings tab 
+  2. From the 'Code and automation' left menu, select pages
+  3. From the source section select the main branch in the drop down menu, select save
+  4. Once the main branch has been saved, the GitHub pages section will display a message saying that the site is ready to be published at https://jackday94.github.io/Project1_Gym_Day/
+  5. After waiting for a few minutes and refreshing the page, GitHub pages will now display a messaging saying 'Your site is published at https://jackday94.github.io/Project1_Gym_Day/' 
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
+- Instructions on how to implement 
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
+- All images on my site were taken from
 - The images used for the gallery page were taken from this other open source site
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
